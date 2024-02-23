@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>. . : : OBEJETO : : . .</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="class.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>SITE DAORA</h1>
+    <label for="comprimento">insira o valor do comprimento(prisma) :</label><br>
+    <input type="number" placeholder="comprimento aqui..." id="comprimento"><br>
+    <label for="altura">insira o valor da altura(prisma/cilíndro/cone/pirâmide) :</label><br>
+    <input type="number" placeholder="volume aqui..." id="altura"><br>
+    <label for="arestaH">insira o valor da aresta horizontal(prisma/pirâmide):</label><br>
+    <input type="number" placeholder="volume aqui..." id="arestaH"><br>
+    <label for="raio">insira o valor do raio(cilíndro/esfera/cone):</label><br>
+    <input type="number" placeholder="volume aqui..." id="raio"><br>
+    <select name="" id="select">
+        <option value="esfera">ESFERA</option>
+        <option value="cilindro">CILÍNDRO</option>
+        <option value="prisma">PRISMA</option>
+        <option value="piramide">PIRÂMIDE</option>
+        <option value="cone">CONE</option>
+    </select>
+    <button id="botao">calcule o volume</button>
+    <div id="resposta"></div>
+</body>
+</html>
