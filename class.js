@@ -7,11 +7,13 @@ class Calculo{
     }
     // Bryan
     calculoPrisma(){
-
+        let calc = (this.comprimento * this.comprimento) * (this.altura)
+        return calc.toFixed(2)
     }
     // Bryan
     calculoCilindro(){
-
+        let calc = (3.14 * (this.raio^2)) * (this.altura)
+        return calc.toFixed(2)
     }
     // Julian
     calculoEsfera(){
